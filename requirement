@@ -1,27 +1,19 @@
-## Installation
+Installation
 
-1. Clone the repository:
+To run this project locally:
 
-```bash
-git clone <repository-url>
-cd <repository-folder>
-```
-
-2. Install the required dependencies:
-
-```bash
+Clone the repository.
+Install the required dependencies using:
 pip install -r requirements.txt
-```
-
-### Requirements
+Required Libraries
 
 The project uses the following Python libraries:
 
-```text
 pandas
 numpy
 scikit-learn
 nltk
 matplotlib
 joblib
-```
+
+Create a requirements.txt file containing these libraries so that anyone cloning the repository can install all dependencies with a single command.
