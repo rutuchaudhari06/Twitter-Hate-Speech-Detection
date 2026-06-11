@@ -1,0 +1,16 @@
+## Model Performance
+
+The confusion matrix below shows the performance of the final Logistic Regression model on the test dataset.
+
+- True Negatives (4165): Non-racist/non-sexist tweets correctly classified.
+- True Positives (263): Racist/sexist tweets correctly detected.
+- False Positives (293): Safe tweets incorrectly flagged as harmful.
+- False Negatives (74): Harmful tweets missed by the model.
+
+The model achieved:
+- Accuracy: 92.35%
+- Precision (Racism/Sexism): 47%
+- Recall (Racism/Sexism): 78%
+- F1-Score (Racism/Sexism): 59%
+
+The results indicate that the model prioritizes identifying harmful content, achieving high recall while accepting a moderate number of false positives.
