@@ -1,0 +1,27 @@
+## Dataset
+
+This project uses the **Twitter Hate Speech Detection** dataset from Kaggle.
+
+The dataset is designed for the task of identifying hate speech in tweets. For this project, hate speech is defined as tweets containing **racist** or **sexist** content.
+
+Each tweet is assigned one of the following labels:
+
+| Label | Description                            |
+| ----- | -------------------------------------- |
+| 0     | Non-hate speech (No racism or sexism)  |
+| 1     | Hate speech (Racist or sexist content) |
+
+### Dataset Statistics
+
+* **Total Tweets:** 31,962
+* **Training Data:** Labeled tweets used for model training and evaluation
+* **Task Type:** Binary Text Classification
+
+### Objective
+
+Given a collection of tweets and their corresponding labels, the goal is to build a machine learning model that can automatically classify whether a tweet contains racist or sexist content.
+
+This dataset presents a real-world text classification challenge, including issues such as noisy social media text, informal language, and class imbalance.
+
+**Dataset Source:**
+https://www.kaggle.com/datasets/arkhoshghalb/twitter-sentiment-analysis-hatred-speech
